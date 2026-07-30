@@ -1,5 +1,5 @@
 {% set name = "secondarycoolantprops" %}
-{% set version = "1.3" %}
+{% set version = "1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 208edf1256b44267577d9aaf023e7ee34cc3f0d764379282427a0e8883dbc236
+  sha256: 35928ac70bb1881c162790f06ad82c58801b535ef95a7c5f66480a2bf6d6a830
 
 build:
   entry_points:
